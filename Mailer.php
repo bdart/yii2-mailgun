@@ -1,6 +1,6 @@
 <?php
 
-namespace boundstate\mailgun;
+namespace bdart\mailgun;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -16,7 +16,7 @@ use \Mailgun\Mailgun;
  * 'components' => [
  *     ...
  *     'mailer' => [
- *         'class' => 'boundstate\mailgun\Mailer',
+ *         'class' => 'bdart\mailgun\Mailer',
  *         'key' => 'key-example',
  *         'domain' => 'mg.example.com',
  *     ],
