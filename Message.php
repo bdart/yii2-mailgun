@@ -1,6 +1,6 @@
 <?php
 
-namespace boundstate\mailgun;
+namespace bdart\mailgun;
 
 
 use yii\base\NotSupportedException;
