@@ -229,6 +229,14 @@ class Message extends BaseMessage
     }
 
     /**
+     * @inheritdoc
+     */
+    public function getHtmlBody()
+    {
+        return $this->getMessageBuilder()->getMessage();
+    }
+    
+    /**
      * Creates the Mailgun message builder.
      * @return MessageBuilder message builder.
      */
